@@ -1,15 +1,15 @@
 {
-    "name": "express-HelloWorld",
+    "name": "express-app",
     "description": "Hello World ExpressJS WebService",
     "version": "0.0.1",
     "private": true,
     "dependencies": {
-        "express": "4.16.2"
+        "express": "~4.16.3"
     },
     "devDependencies": {
-        "mocha": "5.0.0",
-        "unit.js": "2.0.0",
-        "supertest": "3.0.0"
+        "mocha": "~5.2.0",
+        "unit.js": "~2.0.0",
+        "supertest": "~3.1.0"
     },
     "scripts": {
         "start": "node server.js",
