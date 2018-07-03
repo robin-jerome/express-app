@@ -1,18 +1,17 @@
 {
-    "name": "express-app",
-    "description": "Hello World ExpressJS WebService",
-    "version": "0.0.1",
-    "private": true,
-    "dependencies": {
-        "express": "~4.16.3"
-    },
-    "devDependencies": {
-        "mocha": "~5.2.0",
-        "unit.js": "~2.0.0",
-        "supertest": "~3.1.0"
-    },
-    "scripts": {
-        "start": "node server.js",
-        "test": "mocha --recursive tests --exit"
-    }
+	"name": "express-app",
+	"description": "Express App Web Service",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"test": "jasmine"
+	},
+	"dependencies": {
+		"express": "~4.16.3"
+	},
+	"devDependencies": {
+		"jasmine": "~3.1.0",
+		"jasmine-console-reporter": "~3.0.0",
+		"jasmine-reporters": "~2.3.0"
+	}
 }
