@@ -1,13 +1,13 @@
-var port = process.env.PORT || 8080;
-var express = require('express');
+'use strict';
 
-var app = express();
+const express = require('express');
+const app = express();
 
-app.get('/', function(req, res) {
+app.get('/', (req, res) => {
   res.send(
     "Server up!"
   );
 });
 
-app.listen(port);
+app.listen(8080);
 module.exports = app;
